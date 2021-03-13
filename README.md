@@ -12,7 +12,7 @@ to move forward with her own campaign. It will also provide her direction on the
 
 ## Analysis and Challenges
 
-The analysis included the following items performed on the Excel data [Kickstart-Analysis](https://github.com/summerstime/Kickstarter-Analysis/blob/main/kickstarter_challenge.xlsx):
+The analysis included the following items performed on the Excel data [Kickstart-Analysis](Kickstarter_Challenge.xlsx):
 * Creation of additional columns for the Percentage Funded, Average Donation, Parent Category, Subcategory, Date Created Conversion, Date Ended Conversion, and Years.
 * Conditional formatting was utilized on the Outcomes and Pledged columns. This helped distinguish the successes from the failures more easily in the spreadsheet.
 * The original date columns were received in a UNIX Timestamp format and had to be converted using this type of formula =(((J2/60)/60)/24)+DATE(1970,1,1). 
